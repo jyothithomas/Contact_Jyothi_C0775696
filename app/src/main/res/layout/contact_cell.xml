@@ -89,7 +89,8 @@
                         android:layout_height="40dp"
                         android:padding="5dp"
                         android:visibility="visible"
-                        app:srcCompat="@android:drawable/ic_menu_delete"></ImageView>
+                        app:srcCompat="@android:drawable/ic_menu_delete">
+                    </ImageView>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
