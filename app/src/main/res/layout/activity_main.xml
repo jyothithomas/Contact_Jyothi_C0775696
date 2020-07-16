@@ -5,23 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <EditText
         android:padding="10dp"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Find a Contact"
+        android:hint="Search Person"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/colorPrimary"
-        android:id="@+id/editSearch">
+        android:id="@+id/editSearch"
+        >
+
     </EditText>
+
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/recyclerPerson">
+            android:id="@+id/recyclerPerson"
+            >
+
         </androidx.recyclerview.widget.RecyclerView>
 
 
@@ -50,6 +57,7 @@
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/black">
+
         </TextView>
     </FrameLayout>
 </LinearLayout>
